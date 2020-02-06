@@ -1,0 +1,67 @@
+.container1 {
+    background-color: rgb(170, 28, 170);
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container0 {
+    background-color: orange;
+}
+
+.colfo1 {
+    background-color: beige;
+    height: 10%;
+    border: 1px solid black;
+    width: 90%;
+    display: block;
+}
+
+.top1 {
+    background-color: wheat;
+    height: 80px;
+    border: 1px black;
+    width: 1%;
+}
+
+.foto {
+    border-radius: 135px;
+    align-items: center;
+    display: inline-block;
+}
+
+img {
+    border-radius: 10px;
+    align-items: center;
+    display: inline;
+}
+
+.kte {
+    list-style: none;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.kte {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*pour tablette*/
+
+
+/*pour telephone*/
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 1.7em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+}
