@@ -1,3 +1,11 @@
+
+
+.noms{
+    text-align: center;
+    background-color: orange;
+    font-size: 1.5em;
+}
+
 .container1 {
     background-color: rgb(170, 28, 170);
     border: 1px;
@@ -15,7 +23,7 @@
     background-color: beige;
     height: 10%;
     border: 1px solid black;
-    width: 90%;
+    width: 85%;
     display: block;
 }
 
@@ -45,23 +53,80 @@ img {
 
 h1 {
     text-align: center;
+    font-size: 3em;
 }
 
 .kte {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.relier{
+    background-color: orange;
+}
 
 /*pour tablette*/
-
-
+@media screen and (max-width: 768px) {
+    .noms{
+    text-align: left;
+    background-color: #0888;
+    font-size: 2em;
+}
+.colfo1 {
+    background-color: beige;
+    height: 10%;
+    border: 1px solid black;
+    width: 100%;
+}
+.top1 {
+    background-color: wheat;
+    height: 250px;
+    border: 1px black;
+    width: 100%;
+}
+ul,ol{
+    font-size: 1.8em;
+}
+.container1 {
+    width: 100%;
+}
+.container0{
+    width: 100%;
+}
+.noms,{
+    width: 100%;
+}
+.relier{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
 /*pour telephone*/
 
-@media screen and (max-width: 576px) {
-    h1 {
-        font-size: 1.7em;
+@media screen and (max-width: 360px){
+  
+.noms{
+    text-align: center;
+    background-color: #7888;
+    font-size: 1.1em;
     }
-    h2 {
-        font-size: 1.3em;
-    }
+.colfo1 {
+    background-color: beige;
+    height: 10%;
+    border: 1px solid black;
+    width: 100%;
+}
+.top1 {
+    background-color: wheat;
+    height: 250px;
+    border: 1px black;
+    width: 100%;
+}
+ul,ol{
+    font-size: 1.1em;
+}
+h2{
+    font-size: 1.3em;
+}
+h1{
+    font-size: 2em;
 }
